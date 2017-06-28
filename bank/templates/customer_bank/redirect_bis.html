@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Make Payment</title>
+  </head>
+  <body>
+
+  <form name="redirectbis" method="post" action="http://127.0.0.1/web/take_to_analysis/">
+ {% csrf_token %}
+	 <br>
+<input type="hidden" name="acct" value={{ acct }}> </input> <br>
+<input type="hidden" name="status" value={{ status }}> </input> <br>
+      <input type="hidden" name="item1" value={{ item1 }}> </input> <br>
+      <input type="hidden" name="license1" value={{ license1 }}> </input> <br>
+{#<input type="hidden" name="college_id" value={{ college_id }}> </input> <br>#}
+
+<br><br>
+
+	 </form>
+<script>
+window.onload = function(){
+  document.forms['redirectbis'].submit()
+}
+</script>
+  </body>
+  </html>
+

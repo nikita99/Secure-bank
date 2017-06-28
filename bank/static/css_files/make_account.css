@@ -1,0 +1,49 @@
+body {
+    background: url("bank_bis.jpg") ;
+    background-size: 1370px 700px;
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+form {
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    align-self: center;
+}
+.CreateAccountForm{
+    margin: 10px;
+}
+#id_account_no{
+    background-color: azure;
+}
+#id_password{
+    background-color: azure;
+}
+#id_confirm_password {
+    background-color: azure;
+}
+#id_email_id{
+    background-color: azure;
+}
+button {
+    padding: 19px 39px 18px 39px;
+    color: black;
+    background-color: #9999ff;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid #8080ff;
+    border-width: 2px 2px 5px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+}

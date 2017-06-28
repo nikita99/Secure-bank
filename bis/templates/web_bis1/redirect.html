@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Make Payment</title>
+  </head>
+  <body>
+
+  <form name="redirectbank" method="post" action="http://127.0.0.1:8000/bank/login_bank/">
+ {% csrf_token %}
+	 <br>
+<input type="hidden" name="acct" value={{ acct}}> </input> <br>
+<input type="hidden" name="price" value={{ price }}> </input> <br>
+      <input type="hidden" name="item" value={{ item }}> </input> <br>
+      <input type="hidden" name="license" value={{ license }}> </input> <br>
+      <input type="hidden" name="m" value={{ m }}> </input> <br>
+
+{#<input type="hidden" name="college_id" value={{ college_id }}> </input> <br>#}
+
+<br><br>
+
+	 </form>
+<script>
+window.onload = function(){
+  document.forms['redirectbank'].submit()
+}
+</script>
+  </body>
+  </html>
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/login.css" %}">
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div>
+<form method="POST" class="Loginform" action="/web/login/">
+     {% csrf_token %}
+    <h2> LOG IN </h2>
+    <table>
+        <tr>
+            <td>Company Name</td>
+            <td>{{form.company_name }}</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>{{form.password }}</td>
+        </tr>
+    </table>
+    <button type="submit"/>SUBMIT</button>
+</form>
+</div>
+</body>
+</html>

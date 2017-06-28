@@ -1,0 +1,28 @@
+body{
+    background: url("Business-for-bis.jpg") ;
+    background-size: 1370px 700px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    color: ghostwhite;
+}
+h1{
+    font-size:55px;
+    text-align: left;
+    height : 100px;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: black;
+    background-color: darkgray;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 15%;
+    border: 2px solid #8080ff;
+    border-width: 3px 3px 5px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-top:5px;
+    margin-bottom: 10px;
+}

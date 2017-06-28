@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/transaction.css" %}">
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+<div>
+    <p>Transaction Successfull!</p>
+<form method="POST"  action="/bank/transaction/">
+     {% csrf_token %}
+
+{#    <p>Your balance is:</p>#}
+{#    {{ obj1.balance }}#}
+{#<br>#}
+{#<p>merchant's balance is:</p>#}
+{#{{ obj3.balance }}#}
+{#    <input type="hidden" name="account_no" value="account_no_jo udhar se ayega">#}
+{#    <p>Date:</p>{{ time }}#}
+{#    <input type="hidden" name="account_no" value="{{ 18_April_16 }}">#}
+{#    <input type="hidden" name="account_no" value="account_no_jo udhar se ayega">#}
+    <p>Account Number </p>{{ obj4.account_no }}
+
+    <p>Paid To Account Number</p> {{9999 }}
+{#    <input type="hidden" name="account_no" value="{{9999 }}">#}
+
+<button type="submit"/>Proceed to Analysis</button>
+
+
+</form>
+{#<button type="submit"/>Proceed to Analysis</button>#}
+{#     <button/>Print</button>#}
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/homepage.css" %}">
+    <meta charset="UTF-8">
+    <title>S.A.D Home</title>
+</head>
+<body>
+<h1> Welcome to E-S.A.D! </h1><br>
+{#<h1> CHOOSE YOUR OPTION </h1><br>#}
+<h1>Hit the images below! </h1>
+<a href="/web/shopping/">
+    {% load staticfiles %}
+    <img class="img1" src="{% static "css_files/tp1.jpeg" %}" alt="My image"/>
+
+</a>
+<a href="/web/shopping/">
+    {% load staticfiles %}
+    <img class="img2" src="{% static "css_files/tp2.jpg" %}" alt="My image"/>
+</a>
+<a href="/web/donation/">
+    {% load staticfiles %}
+    <img class="img3" src="{% static "css_files/tp3.jpg" %}" alt="My image"/>
+</a>
+
+</body>
+</html>

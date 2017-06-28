@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/dashboard.css" %}">
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+<h1>
+    You have made payment succesfully!!
+</h1>
+<br>
+<p> You need to login again to access the analysis of the required item!</p>
+<br>
+<p>Thank You!</p>
+
+<form method="POST"  action="/web/dashboard/">
+    {% csrf_token %}
+
+    </br>
+    <button type="submit" value="Submit">Logout</button>
+</form>
+</body>
+</html>

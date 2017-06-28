@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>take to analysis</title>
+</head>
+<body>
+<form method="POST" class="payment_gateway" action="/web/take_to_analysis/">
+    {% csrf_token %}
+
+
+    <p>status of transaction is:</p>
+      {{ status}}
+{#    <p>item entered is:</p>#}
+{#    {{ item_name1 }}#}
+    {#    <input type="text" name="item_price" value="{{curr_item_price}}">#}
+    {#    {{curr_item_price}}#}
+    </br>
+    <button type="submit" value="Submit">Proceed</button>
+</form>
+{#<li class="active"><a href="/web/analysis/">Continue</a></li>#}
+</body>
+</html>

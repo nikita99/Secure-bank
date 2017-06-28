@@ -1,0 +1,108 @@
+body
+{
+	text-align:left;
+	width:1000px;
+    font-family: 'Nunito', sans-serif;
+	background-repeat:round;
+	background-color: rgba(49,90,112,1);
+
+}
+
+.body
+{
+	margin:auto;
+	width:90%;
+}
+
+h2,h1,h3
+{
+	color:indianred;
+    text-align: center;
+}
+
+.mainheader
+{
+	width:100%;
+	margin-bottom : 2%;
+}
+
+
+.mainheader img
+{
+	width:100%;
+	height:450px;
+}
+
+
+.mainheader nav ul
+{
+    list-style-type: none;
+    margin: 10px auto;
+    padding-left: 0 ;
+    overflow: hidden;
+	width : 100%;
+	height : 40px;
+}
+
+.mainheader nav ul li
+{
+    float: left;
+	display:inline;
+	width : 48%;
+	height : 30px;
+	text-align : center;
+	background-color: ghostwhite;
+	margin : 0 1% 0 1%;
+	font-size : 25px;
+}
+
+.mainheader nav a:link, a:visited
+{
+	text-align : center;
+    	display: inline;
+    	font-weight: bold;
+    	color: indianred;
+    	/*background-color: #A9A9A9;*/
+    	text-align: center;
+    	/*padding: 5px 185.32px ;*/
+    	text-decoration: none;
+    	text-transform: uppercase;
+	width : 100%;
+}
+
+.mainheader nav a:hover, a:active , .mainheader nav ul li:hover {
+    background-color: rgba(125,206,207,1);
+}
+
+
+.maincontent
+{
+	border-radius: 5px;
+}
+
+.maincontent
+{
+	float:left;
+	width:100%;
+	height:70%;
+	background-color:ghostwhite;
+}
+
+
+
+.main-footer
+{
+	border-radius: 5px;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+	width:90%;
+	background-color:ghostwhite;
+	padding-left : 5%;
+	padding-right: 5%
+}
+
+.main-footer p
+{
+	text-align : center;
+}

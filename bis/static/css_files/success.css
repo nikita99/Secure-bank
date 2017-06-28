@@ -1,0 +1,41 @@
+        body{
+            display: block;
+            font-family: 'Nunito', sans-serif;
+            color: #384047;
+            background-color: #384047;
+        }
+        h2{
+            font-size:70px;
+            text-align: center;
+            background-color: mediumaquamarine;
+            height : 100px;
+        }
+
+        a:link {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-5%);
+            padding: 7px;
+            color : #384047;
+            background-color: mediumaquamarine;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color : #384047;
+            background-color: mediumaquamarine;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color : #384047;
+            background-color:cadetblue;
+            text-decoration: none;
+        }
+
+        a:active {
+            color : #384047;
+            background-color:cadetblue;
+            text-decoration: none;
+        }

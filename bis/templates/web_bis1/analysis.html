@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis</title>
+     {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/analysis.css" %}">
+
+</head>
+<body>
+<h1>SELECT THE ITEM FOR ANALYSIS</h1>
+<form method="POST" class="AnalysisPage" action="/web/analysis/">
+    {% csrf_token %}
+    <select name="item_name">
+          <option value="railway_products" >Railway Products</option>
+          <option value="clothing">Clothing</option>
+          <option value="sports_products">Sports Products</option>
+          <option value="indoor_games">Indoor Games</option>
+          <option value="domestic_products">Domestic Products</option>
+    </select>
+    <button type="submit" class="button" value="Submit">Submit</button>
+</form>
+</body>
+</html>

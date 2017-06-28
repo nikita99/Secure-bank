@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/login_bank.css" %}">
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+<div>
+<form method="POST" class="Loginform_bank" action="/bank/login_bank/">
+     {% csrf_token %}
+    <h2> LOG IN </h2>
+    <table>
+        <tr>
+            <td>Account no</td>
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+            <td><input type="text" name="account_no" id="account_no" value="{{account}}"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+{#            <td>{{form.password }}</td>#}
+            <td><input type="text" name="password"></td>
+        </tr>
+        <tr>
+            <td>Item price</td>
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+            <td><input type="text" name="price" id="price" value="{{price}}"></td>
+        </tr>
+        <tr>
+            <td>Item Name</td>
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+            <td><input type="text" name="item" id="item" value="{{item}}"></td>
+        </tr>
+        <tr>
+            <td>license</td>
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+            <td><input type="text" name="license" id="license" value="{{license}}"></td>
+        </tr>
+{#        <tr>#}
+{#            <td>m</td>#}
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+{#            <td><input type="text" name="m" id="m" value="{{m}}"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>n</td>#}
+{#            <td>{{form.account_no}}</td>#}
+{#           <td> <input type="text" name="account_no" value={{}}></td>#}
+{#            <td><input type="text" name="n" id="n" value="{{n}}"></td>#}
+{#        </tr>#}
+    </table>
+{#    <input type="hidden" name="account_no" value="account_no_jo udhar se ayega">#}
+    <button type="submit"/>SUBMIT</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/make_account.css" %}">
+    <meta charset="UTF-8">
+    <title>Create Account Page</title>
+</head>
+<body>
+
+<div>
+    <form  method="POST"  class="CreateAccountForm">{%  csrf_token %}
+            <h2>Sign Up for Free</h2>
+            <table>
+                 {{form.as_p}}
+            </table>
+           <button    type="submit"  class="save    btn    btn-default">Save</button>
+    </form>
+</div>
+</body>
+</html>

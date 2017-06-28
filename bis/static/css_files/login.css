@@ -1,0 +1,45 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    background-color: rgba(49,90,112,1);
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+form {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    align-self: center;
+}
+.Loginform{
+    margin-top: 150px;
+}
+h2{
+    text-align: center;
+}
+#id_company_name{
+    background-color: azure;
+}
+#id_password{
+    background-color: azure;
+}
+button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: mediumaquamarine;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

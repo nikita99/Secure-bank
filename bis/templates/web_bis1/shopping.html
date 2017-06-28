@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/shopping.css" %}">
+    <meta charset="UTF-8">
+    <title>Shopping Home</title>
+</head>
+<body>
+<h1> CHOOSE YOUR OPTION </h1><br>
+<a href="/web/mainpage/">
+    {% load staticfiles %}
+    <img class="img1" src="{% static "css_files/bis_analyser.jpg" %}" alt="My image"/>
+{#    <h3 style="color:white">Analyser</h3>#}
+</a>
+
+<a href="/web/mainpage/">
+    {% load staticfiles %}
+    <img class="img2" src="{% static "css_files/bis_clothing.jpg" %}" alt="My image"/>
+{#    <h3 style="color:white">Clothing</h3>#}
+</a>
+<a href="/web/mainpage/">
+    {% load staticfiles %}
+    <img class="img3" src="{% static "css_files/bis_electronics.jpg" %}" alt="My image"/>
+{#    <h3 style="color:white">Electronics</h3>#}
+</a>
+</body>
+</html>

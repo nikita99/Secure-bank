@@ -1,0 +1,28 @@
+body{
+    background: url("Business-for-bis.jpg") ;
+    background-size: 1370px 700px;
+}
+
+h1{
+    color : goldenrod;
+    margin-top: 10px;
+    margin-left : 75px;
+}
+
+select{
+    margin-left: 75px;
+    width: 175px;
+    height: 40px;
+    font-size: larger;
+    border-style: inset;
+    border-width: 5px;
+    border-color:goldenrod;
+}
+
+.button{
+    width: 120px;
+    height : 40px;
+    font-size: larger;
+    margin-left: 15px;
+    border-radius: 8px;
+}

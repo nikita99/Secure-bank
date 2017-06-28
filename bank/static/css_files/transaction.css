@@ -1,0 +1,44 @@
+body{
+    background: url("bank_bis.jpg") ;
+    background-size: 1370px 700px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    color: ghostwhite;
+}
+p{
+    font-size:55px;
+    text-align: center;
+}
+
+
+
+form {
+    color: black;
+    max-width: 250px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    align-self: center;
+}
+
+form p{
+    font-size:20px;
+    text-align: left;
+}
+button {
+    padding: 19px 39px 18px 39px;
+    color: black;
+    background-color: #9999ff;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid #8080ff;
+    border-width: 2px 2px 5px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+

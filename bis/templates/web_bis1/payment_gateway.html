@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "css_files/payment_gateway.css" %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    WELCOME TO OUR WEBSITE!!
+</h1>
+<p>OOPS!! YOU HAVE NOT MADE THE PAYMENT</p>
+<form method="POST" class="payment_gateway" action="/web/payment_gateway/">
+    {% csrf_token %}
+       <P>
+        Select your bank
+    </P>
+    <select name="bank_name">
+          <option value="BOI">NASA BANK</option>
+          <option value="SBI">STATE BANK OF INDIA</option>
+          <option value="CANARA">CANARA</option>
+    </select>
+    <br>
+
+
+    <p>Enter your account number:</p>
+    <input type="text" name="account_no" id="account_no">
+    </br>
+    <p>You need to pay:</p>
+      {{ obj2.item_price }}
+{#    <p>item entered is:</p>#}
+{#    {{ item_name1 }}#}
+    {#    <input type="text" name="item_price" value="{{curr_item_price}}">#}
+    {#    {{curr_item_price}}#}
+    </br>
+    <button type="submit" value="Submit">Proceed</button>
+</form>
+</body>
+</html>

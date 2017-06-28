@@ -1,0 +1,14 @@
+body
+{
+    background: url("bank_bis.jpg") ;
+    background-size: 1370px 700px;
+	text-align:center;
+    font-family: 'Nunito', sans-serif;
+    width : 100%;
+    margin:auto;
+}
+
+p{
+    color: white;
+    font-size: 40px;
+}

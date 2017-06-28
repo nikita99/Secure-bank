@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(49,90,112,1);
+    text-align:center;
+    color:whitesmoke;
+}
+a .img1{
+    margin-left:30px;
+    width:200px;
+    height:150px;
+}
+
+a .img2{
+    margin-left:340px;
+    width:200px;
+    height:150px;
+}
+
+a .img3{
+    margin-left: 340px;
+    width:200px;
+    height:150px;
+}
+
